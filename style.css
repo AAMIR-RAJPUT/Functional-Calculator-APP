@@ -1,0 +1,119 @@
+body{
+    margin: 15%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTXAFN_Yqq_vKTlkGff1b7Ml2nzro2esAM_EQ&usqp=CAU);
+}
+.main{
+    margin-top: 50%;
+    border: 2px solid black;
+    width:502px;
+    margin: 0 auto;
+    background-color: chartreuse;
+    height: 380px;  
+    box-shadow: gray;
+    border-radius: 2%;
+    transition:  1s;
+
+    
+}
+.clear{
+    width:502px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: 2px solid black;
+    background-color: coral;
+    color:white;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    box-sizing: border-box;
+    transition:  1s;
+    font-family: cursive;
+
+
+}
+.clear:hover{
+    color: cornflowerblue;
+    background-color: red;
+}
+.output{
+    height:15vh;
+    width: 495px;
+    margin-bottom: 0px;
+    background-color: slategrey;
+    color:white;
+    font-size: 10vh;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    transition:  4s;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+.output:hover{
+    color: white;
+    background-color: deepskyblue;
+}
+.btn{
+    width: 96px;
+    margin: 0.1px;
+    margin-bottom: 1px;
+    margin-left: 0.30px;
+    border: 2px solid black;
+    background-color: darksalmon;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 1px;
+    border-radius: 20%;
+    transition:  1s;
+    font-family: cursive;
+    text-align: center;
+    
+
+}
+.halfbtn{
+    width: 96px;
+    /* margin: 0.1px; */
+    margin-bottom: 1px;
+    border: 2px solid black;
+    background-color: darksalmon;
+    /* margin-left: 0.30px; */
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 1px;
+    border-radius: 20%;
+    transition:  1s;
+    font-family: cursive;
+
+    /* margin-right: 0.25px; */
+}
+.btn:hover{
+    color: cornflowerblue;
+    background-color: darkcyan;
+}
+.halfbtn:hover{
+    color: cornflowerblue;
+    background-color: darkcyan;
+}
+.btnx{
+    width: 96px;
+    margin: 0.1px;
+    margin-bottom: 1px;
+    margin-left: 0.30px;
+    border: 2px solid black;
+    background-color: orange;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20%;
+    margin-left: 1px;
+    transition:  1s;
+    font-family: cursive;
+
+}
+.btnx:hover{
+    background-color: darkcyan;
+}
